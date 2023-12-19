@@ -1,0 +1,28 @@
+// businessLogic.js
+
+function processData(data) {
+    // Business logic operations
+    var modifiedData = modifyData(data);
+
+    // Apply business rules
+    var result = modifiedData * 2;
+
+    displayResult(result);
+}
+
+function modifyData(data) {
+    // Simulate data modification, e.g., adding 10
+    return data + 10;
+}
+
+function displayResult(result) {
+    // Display the result in the HTML
+    document.getElementById("result").innerText = "Result: " + result;
+}
+
+function processInput() {
+    var userInput = parseInt(document.getElementById("userInput").value);
+
+    // Call the business logic function with user input
+    processData(userInput);
+}
