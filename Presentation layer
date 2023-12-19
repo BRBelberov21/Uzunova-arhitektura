@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Three-Layer Architecture</title>
+    <!-- Add any necessary styles or external scripts here -->
+</head>
+<body>
+    <div>
+        <label for="userInput">Enter a number: </label>
+        <input type="number" id="userInput">
+        <button onclick="processInput()">Submit</button>
+        <p id="result"></p>
+    </div>
+
+    <!-- Link the JavaScript file -->
+    <script src="businessLogic.js"></script>
+</body>
+</html>
